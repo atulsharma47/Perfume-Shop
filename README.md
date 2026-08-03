@@ -1,158 +1,145 @@
 <div align="center">
 
-# 🌟 Maison Lumière — Luxury Perfume Shop
+# 🌟 Maison Lumière
 
-### Premium Full Stack MERN Perfume E-Commerce Website
+### Premium Luxury Perfume Shop
 
-<p>
-An elegant luxury perfume shopping experience inspired by premium fragrance brands.
-Built with React, Express.js, MongoDB Atlas, and deployed on Render.
-</p>
+Elegant Full Stack MERN E-Commerce Website inspired by premium perfume brands.
 
-<p>
+<p align="center">
 
-![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
-![NodeJS](https://img.shields.io/badge/Node.js-Express-green?style=for-the-badge&logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-success?style=for-the-badge&logo=mongodb)
-![Render](https://img.shields.io/badge/Render-Deployed-purple?style=for-the-badge&logo=render)
+<img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react">
+<img src="https://img.shields.io/badge/Express.js-Backend-black?style=for-the-badge&logo=express">
+<img src="https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge&logo=mongodb">
+<img src="https://img.shields.io/badge/Node.js-Server-success?style=for-the-badge&logo=node.js">
 
 </p>
 
-<br>
+---
 
-### 🔗 Live Demo
+### 🚀 Live Demo
 
-🌐 **Frontend:** https://perfume-shop-frontend.onrender.com
+**Frontend**
 
-⚙️ **Backend API:** https://perfume-shop-bmyt.onrender.com/api/products
+https://perfume-shop-frontend.onrender.com
 
-❤️ **Health Check:** https://perfume-shop-bmyt.onrender.com/api/health
+**Backend API**
+
+https://perfume-shop-bmyt.onrender.com/api/products
+
+**Health Check**
+
+https://perfume-shop-bmyt.onrender.com/api/health
 
 </div>
 
 ---
 
-# ✨ Features
+# 📖 Overview
 
-✔️ Premium Luxury UI
+Maison Lumière is a modern luxury perfume shopping platform built using the MERN stack. It provides an elegant user experience with dynamic product browsing, detailed perfume descriptions, customer reviews, product search, and a complete REST API powered by Express and MongoDB Atlas.
 
-✔️ Responsive Design
+The application follows a clean client-server architecture where React handles the frontend while Express and MongoDB manage backend services and persistent storage.
 
-✔️ Modern Product Showcase
+---
 
-✔️ Product Details Page
+# ✨ Highlights
 
-✔️ Featured Perfumes Section
-
-✔️ Search Products
-
-✔️ Customer Reviews
-
-✔️ Add New Product
-
-✔️ MongoDB Atlas Database
-
-✔️ REST API
-
-✔️ Express Backend
-
-✔️ Dynamic Product Loading
-
-✔️ Fully Responsive Layout
+- 🌸 Luxury UI Design
+- 🛍 Premium Product Collection
+- 🔍 Search Functionality
+- ⭐ Customer Reviews
+- 📦 Dynamic Product Details
+- ➕ Add New Products
+- ☁ MongoDB Atlas Integration
+- ⚡ REST API
+- 📱 Responsive Design
+- 🚀 Render Deployment
 
 ---
 
 # 🛠 Tech Stack
 
-## Frontend
-
-- React.js
-- Axios
-- React Router
-- CSS3
-- HTML5
-
-## Backend
-
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-
-## Deployment
-
-- Render
-- GitHub
+| Frontend | Backend | Database | Deployment |
+|-----------|----------|-----------|------------|
+| React | Node.js | MongoDB Atlas | Render |
+| React Router | Express.js | Mongoose | GitHub |
+| Axios | REST API | | |
 
 ---
 
-# 📸 Screenshots
+# 🏗 Architecture
 
-## 🏠 Home Page
-
-<p align="center">
-<img src="./Screenshots/home.jpg" width="90%">
-</p>
-
----
-
-## ⭐ Featured Collection
-
-<p align="center">
-<img src="./Screenshots/featured.jpg" width="90%">
-</p>
-
----
-
-## 🛍 Product Collection
-
-<p align="center">
-<img src="./Screenshots/products.jpg" width="90%">
-</p>
+```
+React Frontend
+      │
+      ▼
+Axios API Calls
+      │
+      ▼
+Express REST API
+      │
+      ▼
+MongoDB Atlas
+```
 
 ---
 
-## 📖 Product Details
+# 📸 Application Screenshots
 
-<p align="center">
-<img src="./Screenshots/product-details.jpg" width="90%">
-</p>
+<div align="center">
 
----
+### 🏠 Home
 
-## ℹ Product Information
-
-<p align="center">
-<img src="./Screenshots/product-info.jpg" width="90%">
-</p>
+<img src="./Screenshots/home.jpg" width="48%">
 
 ---
 
-## ⭐ Customer Reviews
+### ⭐ Featured Collection
 
-<p align="center">
-<img src="./Screenshots/reviews.jpg" width="90%">
-</p>
+<img src="./Screenshots/featured.jpg" width="48%">
 
 ---
 
-## 🔍 Search
+### 🛍 Product Collection
 
-<p align="center">
-<img src="./Screenshots/search.jpg" width="90%">
-</p>
+<img src="./Screenshots/products.jpg" width="48%">
 
 ---
 
-## ➕ Add Product
+### 📦 Product Details
 
-<p align="center">
-<img src="./Screenshots/add-product.jpg" width="90%">
-</p>
+<img src="./Screenshots/product-details.jpg" width="48%">
 
 ---
 
-# 📂 Project Structure
+### 📄 Product Information
+
+<img src="./Screenshots/product-info.jpg" width="48%">
+
+---
+
+### ⭐ Customer Reviews
+
+<img src="./Screenshots/reviews.jpg" width="48%">
+
+---
+
+### 🔍 Search
+
+<img src="./Screenshots/search.jpg" width="48%">
+
+---
+
+### ➕ Add Product
+
+<img src="./Screenshots/add-product.jpg" width="48%">
+
+</div>
+
+---
+
+# 📂 Folder Structure
 
 ```
 Perfume-Shop
@@ -160,14 +147,14 @@ Perfume-Shop
 ├── client
 │   ├── public
 │   ├── src
-│   ├── package.json
+│   └── package.json
 │
 ├── server
 │   ├── models
 │   ├── routes
 │   ├── data
 │   ├── index.js
-│   ├── package.json
+│   └── package.json
 │
 ├── Screenshots
 │
@@ -186,7 +173,7 @@ Perfume-Shop
 git clone https://github.com/atulsharma47/Perfume-Shop.git
 ```
 
-```
+```bash
 cd Perfume-Shop
 ```
 
@@ -200,7 +187,7 @@ npm install
 npm start
 ```
 
-Runs at
+Runs on
 
 ```
 http://localhost:3000
@@ -215,7 +202,7 @@ cd server
 npm install
 ```
 
-Create `.env`
+Create a `.env`
 
 ```
 PORT=5000
@@ -236,15 +223,15 @@ http://localhost:5000
 
 ---
 
-# 🔗 API Endpoints
+# 📡 API Endpoints
 
 | Method | Endpoint | Description |
-|----------|-------------------------|----------------|
-| GET | /api/products | Get All Products |
-| GET | /api/products/:id | Get Product |
-| POST | /api/products | Add Product |
-| POST | /api/products/:id/reviews | Add Review |
-| GET | /api/health | Health Check |
+|----------|-------------------------------|----------------|
+| GET | `/api/products` | Fetch all products |
+| GET | `/api/products/:id` | Fetch product by ID |
+| POST | `/api/products` | Add new product |
+| POST | `/api/products/:id/reviews` | Add review |
+| GET | `/api/health` | Server health |
 
 ---
 
@@ -252,14 +239,13 @@ http://localhost:5000
 
 - ❤️ Wishlist
 - 🛒 Shopping Cart
-- 💳 Payment Gateway
-- 🔐 User Authentication
-- 📦 Order Tracking
-- 👤 User Profiles
-- 🎁 Coupons
-- ⭐ Ratings Analytics
+- 💳 Stripe Payments
+- 👤 User Authentication
+- 📦 Order Management
+- 🔐 Admin Dashboard
 - 📱 Progressive Web App
-- 🌙 Dark Mode
+- 🌙 Dark Theme
+- 🔔 Notifications
 
 ---
 
@@ -275,18 +261,14 @@ GitHub
 
 https://github.com/atulsharma47
 
-LinkedIn
-
-(Add your LinkedIn)
-
 </div>
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, don't forget to Star the Repository ⭐
+### ⭐ If you found this project useful, consider giving it a Star ⭐
 
-Made with ❤️ using React, Express & MongoDB
+Made with ❤️ using React, Express.js and MongoDB Atlas
 
 </div>
