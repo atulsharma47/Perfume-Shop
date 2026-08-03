@@ -107,18 +107,6 @@ MongoDB Atlas
 
 ---
 
-### 📦 Product Details
-
-<img src="./Screenshots/product-details.jpg" width="48%">
-
----
-
-### 📄 Product Information
-
-<img src="./Screenshots/product-info.jpg" width="48%">
-
----
-
 ### ⭐ Customer Reviews
 
 <img src="./Screenshots/reviews.jpg" width="48%">
