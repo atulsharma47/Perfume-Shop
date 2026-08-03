@@ -1,129 +1,186 @@
+<div align="center">
+
 # 🌸 Perfume Shop
 
-> A premium full-stack perfume e-commerce application built with the MERN stack, featuring a modern React frontend, Express REST API, MongoDB Atlas database, product reviews, featured collections, and an elegant shopping experience.
+### Premium Full-Stack MERN Perfume E-Commerce Application
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![Status](https://img.shields.io/badge/Status-Active-success)
+An elegant and modern perfume shopping platform built with **React**, **Node.js**, **Express**, **MongoDB Atlas**, and deployed on **Render**.
+
+<p>
+
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![NodeJS](https://img.shields.io/badge/Node.js-Express-green?style=for-the-badge&logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge&logo=mongodb)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+
+</p>
+
+### 🚀 Live Demo
+
+**Frontend**
+
+https://perfume-shop-frontend.onrender.com
+
+**Backend API**
+
+https://perfume-shop-bmyt.onrender.com/api/products
+
+</div>
 
 ---
 
-## ✨ Features
+<div align="center">
 
-- 🌹 Premium perfume catalogue
-- 🔍 View complete perfume details
-- ⭐ Customer ratings & reviews
-- 📝 Submit new reviews
-- 💎 Featured perfume collection
-- 📱 Responsive design
+# 📸 Application Preview
+
+</div>
+
+## 🏠 Home Page
+
+<p align="center">
+<img src="screenshots/home.png" width="90%">
+</p>
+
+---
+
+## 🌹 Featured Collection
+
+<p align="center">
+<img src="screenshots/featured.png" width="90%">
+</p>
+
+---
+
+## 💎 Product Details
+
+<p align="center">
+<img src="screenshots/product.png" width="90%">
+</p>
+
+---
+
+## ⭐ Reviews Section
+
+<p align="center">
+<img src="screenshots/reviews.png" width="90%">
+</p>
+
+---
+
+## 📱 Responsive Mobile View
+
+<p align="center">
+<img src="screenshots/mobile.png" width="40%">
+</p>
+
+---
+
+<div align="center">
+
+# ✨ Features
+
+</div>
+
+- 🌹 Premium perfume collection
+- ⭐ Product ratings
+- 📝 Customer reviews
+- 🔍 Product details page
+- 💎 Featured perfumes
+- 📱 Fully responsive UI
 - ☁️ MongoDB Atlas integration
-- 🚀 RESTful API architecture
-- 📦 Express backend
-- ⚡ Fast React frontend
+- ⚡ REST API
+- 🚀 Cloud deployment
+- 🎨 Elegant premium interface
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots after deployment.
-
-| Home | Product Details |
-|------|-----------------|
-| Home Screenshot | Product Screenshot |
-
----
+<div align="center">
 
 # 🛠 Tech Stack
 
-## Frontend
+</div>
 
-- React
-- React Router
-- Axios
-- React Share
-- React Parallax Tilt
-- CSS3
-
-## Backend
-
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Mongoose
-- CORS
-- dotenv
+| Frontend | Backend | Database | Deployment |
+|-----------|----------|-----------|------------|
+| React | Node.js | MongoDB Atlas | Render |
+| Axios | Express | Mongoose | GitHub |
+| React Router | REST API | | |
 
 ---
 
+<div align="center">
+
+# 🏗 System Architecture
+
+</div>
+
+```text
+             React Frontend
+                    │
+                    │
+              Axios Requests
+                    │
+                    ▼
+           Express REST API
+                    │
+              Mongoose ODM
+                    │
+                    ▼
+             MongoDB Atlas
+```
+
+---
+
+<div align="center">
+
 # 📂 Project Structure
 
-```
-Perfume-Shop/
+</div>
+
+```text
+Perfume-Shop
 │
-├── client/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
+├── client
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── styles
+│   │   └── utils
+│   └── package.json
 │
-├── server/
-│   ├── models/
-│   ├── routes/
-│   ├── data/
+├── server
+│   ├── routes
+│   ├── models
+│   ├── data
 │   ├── index.js
-│   ├── package.json
+│   └── package.json
 │
 └── README.md
 ```
 
 ---
 
-# 🚀 Live Demo
+<div align="center">
 
-### Frontend
+# 🚀 Installation
 
-```
-https://YOUR_FRONTEND_URL
-```
+</div>
 
-### Backend API
-
-```
-https://YOUR_BACKEND_URL
-```
-
-### Health Endpoint
-
-```
-https://YOUR_BACKEND_URL/api/health
-```
-
-### Products Endpoint
-
-```
-https://YOUR_BACKEND_URL/api/products
-```
-
----
-
-# ⚙️ Installation
-
-Clone the repository
+Clone Repository
 
 ```bash
 git clone https://github.com/atulsharma47/Perfume-Shop.git
 ```
 
-Move inside project
+Go into project
 
 ```bash
 cd Perfume-Shop
 ```
 
----
-
-## Install Frontend
+### Install Frontend
 
 ```bash
 cd client
@@ -131,7 +188,7 @@ npm install
 npm start
 ```
 
-Runs on
+Runs at
 
 ```
 http://localhost:3000
@@ -139,7 +196,7 @@ http://localhost:3000
 
 ---
 
-## Install Backend
+### Install Backend
 
 ```bash
 cd server
@@ -147,7 +204,7 @@ npm install
 npm start
 ```
 
-Runs on
+Runs at
 
 ```
 http://localhost:5000
@@ -155,9 +212,13 @@ http://localhost:5000
 
 ---
 
+<div align="center">
+
 # 🔐 Environment Variables
 
-Create a `.env` file inside the **server** folder.
+</div>
+
+Create `.env` inside **server**
 
 ```env
 PORT=5000
@@ -165,155 +226,90 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 ```
 
-Example
+---
 
-```env
-mongodb+srv://username:password@cluster.mongodb.net/perfumeDB
-```
+<div align="center">
+
+# 📡 REST API
+
+</div>
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | `/api/health` | Server Health |
+| GET | `/api/products` | All Products |
+| GET | `/api/products?featured=true` | Featured Products |
+| GET | `/api/products/:id` | Single Product |
+| POST | `/api/products` | Add Product |
+| POST | `/api/products/:id/reviews` | Add Review |
 
 ---
 
-# 📡 API Endpoints
+<div align="center">
 
-## Health Check
+# ☁ Deployment
 
-```
-GET /api/health
-```
+</div>
 
----
+### Frontend
 
-## Get All Products
+Render Static Site
 
-```
-GET /api/products
-```
+### Backend
 
----
+Render Web Service
 
-## Featured Products
+### Database
 
-```
-GET /api/products?featured=true
-```
+MongoDB Atlas
 
 ---
 
-## Get Single Product
+<div align="center">
 
-```
-GET /api/products/:id
-```
+# 📈 Future Enhancements
 
----
+</div>
 
-## Add Review
-
-```
-POST /api/products/:id/reviews
-```
-
----
-
-## Add Product
-
-```
-POST /api/products
-```
+- 🔐 User Authentication
+- 🛒 Shopping Cart
+- ❤️ Wishlist
+- 💳 Stripe Payment
+- 📦 Order Tracking
+- 👤 User Profiles
+- 🔍 Search & Filters
+- 📊 Admin Dashboard
+- 🎟 Coupons
+- 🌙 Dark Mode
 
 ---
 
-# 🗄 Database
+<div align="center">
 
-MongoDB Atlas is used for storing
+# 👨‍💻 Developer
 
-- Products
-- Reviews
-- Ratings
-
-Connected using
-
-- Mongoose ODM
-
----
-
-# 🏗 Architecture
-
-```
-                React Frontend
-                       │
-                 Axios HTTP Requests
-                       │
-               Express REST API
-                       │
-                  Mongoose ODM
-                       │
-                MongoDB Atlas
-```
-
----
-
-# 📈 Future Improvements
-
-- User Authentication
-- JWT Login
-- Shopping Cart
-- Wishlist
-- Checkout
-- Payment Gateway
-- Admin Dashboard
-- Search & Filters
-- Order History
-- Product Categories
-- Coupons
-- Dark Mode
-
----
-
-# 💻 Developed By
-
-**Atul Sharma**
+### Atul Sharma
 
 Computer Science Engineer
 
-GitHub
+<p>
 
-https://github.com/atulsharma47
+<a href="https://github.com/atulsharma47">
+<img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
+</a>
 
-LinkedIn
+<a href="YOUR_LINKEDIN">
+<img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin">
+</a>
 
-(Add your LinkedIn URL)
+</p>
 
----
-
-# ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
-
-It helps others discover the project and motivates future improvements.
+</div>
 
 ---
 
-# 📄 License
+<div align="center">
 
-This project is licensed under the MIT License.
+## ⭐ If you like this project, give it a Star on GitHub ⭐
 
----
-
-## 🎯 Project Highlights
-
-✔ Full Stack MERN Application
-
-✔ REST API Development
-
-✔ MongoDB Atlas Integration
-
-✔ Responsive React UI
-
-✔ Product Review System
-
-✔ Professional Folder Structure
-
-✔ Cloud Deployment Ready
-
-✔ Recruiter Friendly Codebase
+</div>
