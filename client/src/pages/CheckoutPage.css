@@ -1,0 +1,86 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   CheckoutPage.css  –  Styles for the Checkout "Coming Soon" page
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.checkout-page {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg, #0d0d0d);
+  padding: 4rem 1.5rem;
+}
+
+/* Centered card container */
+.checkout-card {
+  text-align: center;
+  max-width: 520px;
+  width: 100%;
+  animation: checkoutFadeUp 0.6s ease both;
+}
+
+@keyframes checkoutFadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Decorative icon ring */
+.checkout-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgba(201, 169, 110, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  color: #c9a96e;
+  background: rgba(201, 169, 110, 0.07);
+}
+
+/* Eyebrow label above the headline */
+.checkout-eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #c9a96e;
+  margin-bottom: 1rem;
+}
+
+/* Main headline */
+.checkout-headline {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 600;
+  color: #f0ece4;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+
+/* Sub-text */
+.checkout-body {
+  font-size: 0.95rem;
+  color: rgba(240, 236, 228, 0.55);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+/* Divider line */
+.checkout-divider {
+  width: 48px;
+  height: 1px;
+  background: rgba(201, 169, 110, 0.3);
+  margin: 0 auto 2.5rem;
+}
+
+/* Action buttons row */
+.checkout-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Reuse global btn styles; these are fallback overrides if not loaded */
+.checkout-actions .btn {
+  min-width: 160px;
+}

@@ -1,0 +1,148 @@
+.add-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(11, 11, 12, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.add-modal {
+  width: 100%;
+  max-width: 650px;
+  background: #141416;
+  border: 1px solid rgba(201, 169, 110, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 30px rgba(201, 169, 110, 0.15);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.add-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.add-modal-header h3 {
+  font-family: 'Cinzel', 'Playfair Display', serif;
+  color: #f5f2eb;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.add-modal-close {
+  background: transparent;
+  border: none;
+  color: #8a8880;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.add-modal-close:hover {
+  color: #f5f2eb;
+}
+
+.add-modal-alert {
+  padding: 10px 24px;
+  font-size: 0.85rem;
+}
+
+.add-modal-alert--error {
+  background: rgba(220, 53, 69, 0.2);
+  color: #ff6b6b;
+  border-bottom: 1px solid rgba(220, 53, 69, 0.3);
+}
+
+.add-modal-alert--success {
+  background: rgba(40, 167, 69, 0.2);
+  color: #51cf66;
+  border-bottom: 1px solid rgba(40, 167, 69, 0.3);
+}
+
+.add-modal-form {
+  padding: 24px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.form-row--center {
+  align-items: center;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.8rem;
+  color: #c9a96e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group input[type='text'],
+.form-group input[type='number'],
+.form-group select,
+.form-group textarea {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  padding: 10px 12px;
+  color: #f5f2eb;
+  font-size: 0.9rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #c9a96e;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.form-group select option {
+  background: #141416;
+  color: #f5f2eb;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d1cdb8;
+  cursor: pointer;
+  text-transform: none;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.add-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 10px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
