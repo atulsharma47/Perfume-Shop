@@ -5,7 +5,8 @@ import { useCart } from '../context/CartContext';
 import Tilt from 'react-parallax-tilt';
 import './ProductPage.css';
 
-const API = 'http://localhost:5000/api';
+const API =
+  process.env.REACT_APP_API_URL || "http://localhost:5000/api";
 
 /* ─── Helpers ─────────────────────────────────────────────────── */
 function Stars({ rating, interactive = false, onRate }) {
