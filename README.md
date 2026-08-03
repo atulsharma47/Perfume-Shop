@@ -1,165 +1,121 @@
-# ✨ Perfume Shop
+# 🌸 Perfume Shop
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
-  <img src="https://img.shields.io/badge/Node.js-Express-green?logo=node.js" />
-  <img src="https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb" />
-  <img src="https://img.shields.io/badge/License-MIT-blue" />
-</p>
+> A premium full-stack perfume e-commerce application built with the MERN stack, featuring a modern React frontend, Express REST API, MongoDB Atlas database, product reviews, featured collections, and an elegant shopping experience.
 
-<p align="center">
-  <strong>A Modern Full-Stack Luxury Perfume E-Commerce Website</strong>
-</p>
-
-<p align="center">
-Premium UI • Responsive Design • Shopping Cart • Product Search • Reviews • MongoDB Atlas
-</p>
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
-## 📖 About the Project
+## ✨ Features
 
-**Perfume Shop** is a modern full-stack e-commerce application designed for showcasing and purchasing premium luxury fragrances.
-
-The project focuses on creating a high-end shopping experience through elegant UI design, smooth user interactions, responsive layouts, and a scalable backend architecture.
-
-The application combines a React frontend with an Express.js backend and MongoDB Atlas database to provide a complete shopping experience.
-
----
-
-# ✨ Features
-
-## 🛍 Product Catalog
-
-- Browse premium perfume collections
-- Beautiful animated product cards
-- Product details page
-- High-quality product gallery
-- Responsive grid layout
+- 🌹 Premium perfume catalogue
+- 🔍 View complete perfume details
+- ⭐ Customer ratings & reviews
+- 📝 Submit new reviews
+- 💎 Featured perfume collection
+- 📱 Responsive design
+- ☁️ MongoDB Atlas integration
+- 🚀 RESTful API architecture
+- 📦 Express backend
+- ⚡ Fast React frontend
 
 ---
 
-## 🔍 Smart Search
+# 📸 Screenshots
 
-- Search perfumes instantly
-- Easy product discovery
-- Fast filtering experience
+> Add screenshots after deployment.
 
----
-
-## 🛒 Shopping Cart
-
-- Add products to cart
-- Remove products
-- Update quantities
-- Live price calculation
-- Cart drawer interface
+| Home | Product Details |
+|------|-----------------|
+| Home Screenshot | Product Screenshot |
 
 ---
 
-## ⭐ Reviews
+# 🛠 Tech Stack
 
-- Product review section
-- Customer ratings
-- Beautiful review layout
-
----
-
-## 💳 Checkout
-
-- Modern checkout page
-- Order summary
-- Clean purchase flow
-
----
-
-## 🎨 Premium UI
-
-- Luxury dark & gold theme
-- Smooth animations
-- Hover effects
-- Modern typography
-- Responsive design
-- Interactive components
-
----
-
-# 🖼 Screenshots
-
-<p align="center">
-<img src="Screenshots%20of%20website/Screenshot%20(3109).jpg" width="45%">
-<img src="Screenshots%20of%20website/Screenshot%20(3110).jpg" width="45%">
-</p>
-
-<p align="center">
-<img src="Screenshots%20of%20website/Screenshot%20(3112).jpg" width="45%">
-<img src="Screenshots%20of%20website/Screenshot%20(3115).jpg" width="45%">
-</p>
-
-<p align="center">
-<img src="Screenshots%20of%20website/Screenshot%20(3118).jpg" width="45%">
-<img src="Screenshots%20of%20website/Screenshot%20(3122).jpg" width="45%">
-</p>
-
-<p align="center">
-<img src="Screenshots%20of%20website/Screenshot%20(3127).jpg" width="45%">
-<img src="Screenshots%20of%20website/Screenshot%20(3130).jpg" width="45%">
-</p>
-
----
-
-# 🏗 Tech Stack
-
-### Frontend
+## Frontend
 
 - React
 - React Router
 - Axios
+- React Share
+- React Parallax Tilt
 - CSS3
-- HTML5
 
-### Backend
+## Backend
 
 - Node.js
 - Express.js
-
-### Database
-
 - MongoDB Atlas
 - Mongoose
+- CORS
+- dotenv
 
 ---
 
 # 📂 Project Structure
 
 ```
-Perfume-Shop
+Perfume-Shop/
 │
-├── client
-│   ├── public
-│   └── src
-│       ├── components
-│       ├── context
-│       ├── hooks
-│       └── pages
+├── client/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
 │
-├── server
-│   ├── models
-│   ├── routes
-│   └── data
+├── server/
+│   ├── models/
+│   ├── routes/
+│   ├── data/
+│   ├── index.js
+│   ├── package.json
 │
 └── README.md
 ```
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Live Demo
 
-## Clone Repository
+### Frontend
+
+```
+https://YOUR_FRONTEND_URL
+```
+
+### Backend API
+
+```
+https://YOUR_BACKEND_URL
+```
+
+### Health Endpoint
+
+```
+https://YOUR_BACKEND_URL/api/health
+```
+
+### Products Endpoint
+
+```
+https://YOUR_BACKEND_URL/api/products
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
 
 ```bash
 git clone https://github.com/atulsharma47/Perfume-Shop.git
 ```
+
+Move inside project
 
 ```bash
 cd Perfume-Shop
@@ -167,53 +123,31 @@ cd Perfume-Shop
 
 ---
 
-## Backend Setup
-
-```bash
-cd server
-```
-
-```bash
-npm install
-```
-
-Create a `.env` file
-
-```env
-PORT=5000
-
-MONGO_URI=your_mongodb_connection_string
-```
-
-Start backend
-
-```bash
-npm start
-```
-
----
-
-## Frontend Setup
+## Install Frontend
 
 ```bash
 cd client
-```
-
-```bash
 npm install
-```
-
-```bash
 npm start
 ```
 
-The frontend will run on
+Runs on
 
 ```
 http://localhost:3000
 ```
 
-Backend
+---
+
+## Install Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+Runs on
 
 ```
 http://localhost:5000
@@ -221,54 +155,165 @@ http://localhost:5000
 
 ---
 
-# 📌 API Endpoints
+# 🔐 Environment Variables
 
-| Method | Endpoint | Description |
-|---------|----------|-------------|
-| GET | /api/products | Fetch all perfumes |
-| GET | /api/products/:id | Fetch product details |
-| POST | /api/products/:id/reviews | Add product review |
-| GET | /api/health | Health Check |
+Create a `.env` file inside the **server** folder.
 
----
+```env
+PORT=5000
 
-# 📱 Responsive Design
+MONGO_URI=your_mongodb_connection_string
+```
 
-The application is fully responsive and optimized for
+Example
 
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
+```env
+mongodb+srv://username:password@cluster.mongodb.net/perfumeDB
+```
 
 ---
 
-# 🔮 Future Improvements
+# 📡 API Endpoints
+
+## Health Check
+
+```
+GET /api/health
+```
+
+---
+
+## Get All Products
+
+```
+GET /api/products
+```
+
+---
+
+## Featured Products
+
+```
+GET /api/products?featured=true
+```
+
+---
+
+## Get Single Product
+
+```
+GET /api/products/:id
+```
+
+---
+
+## Add Review
+
+```
+POST /api/products/:id/reviews
+```
+
+---
+
+## Add Product
+
+```
+POST /api/products
+```
+
+---
+
+# 🗄 Database
+
+MongoDB Atlas is used for storing
+
+- Products
+- Reviews
+- Ratings
+
+Connected using
+
+- Mongoose ODM
+
+---
+
+# 🏗 Architecture
+
+```
+                React Frontend
+                       │
+                 Axios HTTP Requests
+                       │
+               Express REST API
+                       │
+                  Mongoose ODM
+                       │
+                MongoDB Atlas
+```
+
+---
+
+# 📈 Future Improvements
 
 - User Authentication
+- JWT Login
+- Shopping Cart
 - Wishlist
-- Payment Gateway Integration
-- Order Tracking
+- Checkout
+- Payment Gateway
 - Admin Dashboard
+- Search & Filters
+- Order History
 - Product Categories
-- Coupon System
-- Inventory Management
-- User Profiles
+- Coupons
+- Dark Mode
 
 ---
 
-# 👨‍💻 Author
+# 💻 Developed By
 
 **Atul Sharma**
+
+Computer Science Engineer
 
 GitHub
 
 https://github.com/atulsharma47
 
+LinkedIn
+
+(Add your LinkedIn URL)
+
 ---
 
 # ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
-It helps others discover the project and supports future development.
+It helps others discover the project and motivates future improvements.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🎯 Project Highlights
+
+✔ Full Stack MERN Application
+
+✔ REST API Development
+
+✔ MongoDB Atlas Integration
+
+✔ Responsive React UI
+
+✔ Product Review System
+
+✔ Professional Folder Structure
+
+✔ Cloud Deployment Ready
+
+✔ Recruiter Friendly Codebase
