@@ -4,132 +4,134 @@
 
 ### Premium Luxury Perfume Shop
 
-Elegant Full Stack MERN E-Commerce Website inspired by premium perfume brands.
+*A modern full-stack MERN e-commerce application inspired by luxury fragrance brands.*
 
-<p align="center">
+<p>
 
-<img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react">
-<img src="https://img.shields.io/badge/Express.js-Backend-black?style=for-the-badge&logo=express">
-<img src="https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge&logo=mongodb">
-<img src="https://img.shields.io/badge/Node.js-Server-success?style=for-the-badge&logo=node.js">
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black">
 
 </p>
-
----
-
-### 🚀 Live Demo
-
-**Frontend**
-
-https://perfume-shop-frontend.onrender.com
-
-**Backend API**
-
-https://perfume-shop-bmyt.onrender.com/api/products
-
-**Health Check**
-
-https://perfume-shop-bmyt.onrender.com/api/health
 
 </div>
 
 ---
 
-# 📖 Overview
+# 🚀 Live Demo
 
-Maison Lumière is a modern luxury perfume shopping platform built using the MERN stack. It provides an elegant user experience with dynamic product browsing, detailed perfume descriptions, customer reviews, product search, and a complete REST API powered by Express and MongoDB Atlas.
+### 🌐 Frontend
 
-The application follows a clean client-server architecture where React handles the frontend while Express and MongoDB manage backend services and persistent storage.
+https://perfume-shop-frontend.onrender.com
+
+### ⚙ Backend API
+
+https://perfume-shop-bmyt.onrender.com/api/products
+
+### ❤️ Health Check
+
+https://perfume-shop-bmyt.onrender.com/api/health
 
 ---
 
-# ✨ Highlights
+# 📖 About
 
-- 🌸 Luxury UI Design
-- 🛍 Premium Product Collection
-- 🔍 Search Functionality
-- ⭐ Customer Reviews
-- 📦 Dynamic Product Details
-- ➕ Add New Products
-- ☁ MongoDB Atlas Integration
-- ⚡ REST API
-- 📱 Responsive Design
-- 🚀 Render Deployment
+Maison Lumière is a luxury perfume shopping platform developed using the **MERN Stack**. The application delivers a premium online shopping experience with elegant UI design, dynamic product browsing, customer reviews, product search, and a RESTful backend powered by Express.js and MongoDB Atlas.
+
+The project demonstrates full-stack development concepts including API development, database integration, frontend-backend communication, and cloud deployment.
+
+---
+
+# ✨ Features
+
+- 🌸 Luxury-inspired modern UI
+- 🛍 Browse premium perfume collection
+- ⭐ Featured products section
+- 🔍 Search perfumes instantly
+- 📦 Dynamic product loading
+- ✍ Customer reviews
+- ➕ Add new products
+- ☁ MongoDB Atlas integration
+- ⚡ RESTful API
+- 📱 Fully responsive design
+- 🚀 Deployed on Render
 
 ---
 
 # 🛠 Tech Stack
 
 | Frontend | Backend | Database | Deployment |
-|-----------|----------|-----------|------------|
-| React | Node.js | MongoDB Atlas | Render |
+|----------|----------|----------|------------|
+| React.js | Node.js | MongoDB Atlas | Render |
 | React Router | Express.js | Mongoose | GitHub |
 | Axios | REST API | | |
 
 ---
 
-# 🏗 Architecture
+# 🏗 System Architecture
 
 ```
 React Frontend
-      │
-      ▼
-Axios API Calls
-      │
-      ▼
+        │
+        ▼
+Axios API Requests
+        │
+        ▼
 Express REST API
-      │
-      ▼
+        │
+        ▼
 MongoDB Atlas
 ```
 
 ---
 
-# 📸 Application Screenshots
+# 📸 Application Preview
 
 <div align="center">
 
-### 🏠 Home
+### 🏠 Home Page
 
-<img src="./Screenshots/home.jpg" width="48%">
+<img src="./Screenshots/home.jpg" width="80%">
 
 ---
 
 ### ⭐ Featured Collection
 
-<img src="./Screenshots/featured.jpg" width="48%">
+<img src="./Screenshots/featured.jpg" width="80%">
 
 ---
 
 ### 🛍 Product Collection
 
-<img src="./Screenshots/products.jpg" width="48%">
+<img src="./Screenshots/products.jpg" width="80%">
 
 ---
 
 ### ⭐ Customer Reviews
 
-<img src="./Screenshots/reviews.jpg" width="48%">
+<img src="./Screenshots/reviews.jpg" width="80%">
 
 ---
 
-### 🔍 Search
+### 🔍 Search Products
 
-<img src="./Screenshots/search.jpg" width="48%">
+<img src="./Screenshots/search.jpg" width="80%">
 
 ---
 
-### ➕ Add Product
+### ➕ Add New Product
 
-<img src="./Screenshots/add-product.jpg" width="48%">
+<img src="./Screenshots/add-product.jpg" width="80%">
 
 </div>
 
 ---
 
-# 📂 Folder Structure
+# 📂 Project Structure
 
-```
+```text
 Perfume-Shop
 │
 ├── client
@@ -175,7 +177,7 @@ npm install
 npm start
 ```
 
-Runs on
+Runs on:
 
 ```
 http://localhost:3000
@@ -190,20 +192,20 @@ cd server
 npm install
 ```
 
-Create a `.env`
+Create a `.env` file:
 
 ```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 ```
 
-Run
+Start the server:
 
 ```bash
 npm start
 ```
 
-Backend
+Backend runs on:
 
 ```
 http://localhost:5000
@@ -211,29 +213,30 @@ http://localhost:5000
 
 ---
 
-# 📡 API Endpoints
+# 📡 REST API
 
 | Method | Endpoint | Description |
-|----------|-------------------------------|----------------|
+|---------|----------|-------------|
 | GET | `/api/products` | Fetch all products |
-| GET | `/api/products/:id` | Fetch product by ID |
+| GET | `/api/products/:id` | Fetch product details |
 | POST | `/api/products` | Add new product |
-| POST | `/api/products/:id/reviews` | Add review |
-| GET | `/api/health` | Server health |
+| POST | `/api/products/:id/reviews` | Add customer review |
+| GET | `/api/health` | Health check |
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Future Enhancements
 
 - ❤️ Wishlist
 - 🛒 Shopping Cart
-- 💳 Stripe Payments
-- 👤 User Authentication
-- 📦 Order Management
-- 🔐 Admin Dashboard
+- 💳 Online Payments
+- 🔐 Authentication
+- 👤 User Accounts
+- 📦 Order Tracking
+- 🧾 Order History
+- 🌙 Dark Mode
 - 📱 Progressive Web App
-- 🌙 Dark Theme
-- 🔔 Notifications
+- 📊 Admin Dashboard
 
 ---
 
@@ -243,7 +246,7 @@ http://localhost:5000
 
 ## Atul Sharma
 
-Full Stack Developer
+**Full Stack Developer**
 
 GitHub
 
@@ -255,8 +258,8 @@ https://github.com/atulsharma47
 
 <div align="center">
 
-### ⭐ If you found this project useful, consider giving it a Star ⭐
+### ⭐ If you enjoyed this project, consider giving it a Star!
 
-Made with ❤️ using React, Express.js and MongoDB Atlas
+Built with ❤️ using React, Express.js & MongoDB Atlas
 
 </div>
