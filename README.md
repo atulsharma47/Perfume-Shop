@@ -1,66 +1,274 @@
-# Maison Lumière — Perfume Shop
+# ✨ Perfume Shop
 
-A luxury perfume e-commerce site built with React, Node.js/Express, and MongoDB.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Node.js-Express-green?logo=node.js" />
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+</p>
 
-## Quick Start
+<p align="center">
+  <strong>A Modern Full-Stack Luxury Perfume E-Commerce Website</strong>
+</p>
 
-### Prerequisites
-- Node.js 18+
-- MongoDB running locally on port 27017 (or set `MONGO_URI` in `server/.env`)
+<p align="center">
+Premium UI • Responsive Design • Shopping Cart • Product Search • Reviews • MongoDB Atlas
+</p>
 
 ---
 
-### 1. Install & seed the backend
+## 📖 About the Project
+
+**Perfume Shop** is a modern full-stack e-commerce application designed for showcasing and purchasing premium luxury fragrances.
+
+The project focuses on creating a high-end shopping experience through elegant UI design, smooth user interactions, responsive layouts, and a scalable backend architecture.
+
+The application combines a React frontend with an Express.js backend and MongoDB Atlas database to provide a complete shopping experience.
+
+---
+
+# ✨ Features
+
+## 🛍 Product Catalog
+
+- Browse premium perfume collections
+- Beautiful animated product cards
+- Product details page
+- High-quality product gallery
+- Responsive grid layout
+
+---
+
+## 🔍 Smart Search
+
+- Search perfumes instantly
+- Easy product discovery
+- Fast filtering experience
+
+---
+
+## 🛒 Shopping Cart
+
+- Add products to cart
+- Remove products
+- Update quantities
+- Live price calculation
+- Cart drawer interface
+
+---
+
+## ⭐ Reviews
+
+- Product review section
+- Customer ratings
+- Beautiful review layout
+
+---
+
+## 💳 Checkout
+
+- Modern checkout page
+- Order summary
+- Clean purchase flow
+
+---
+
+## 🎨 Premium UI
+
+- Luxury dark & gold theme
+- Smooth animations
+- Hover effects
+- Modern typography
+- Responsive design
+- Interactive components
+
+---
+
+# 🖼 Screenshots
+
+<p align="center">
+<img src="Screenshots%20of%20website/Screenshot%20(3109).jpg" width="45%">
+<img src="Screenshots%20of%20website/Screenshot%20(3110).jpg" width="45%">
+</p>
+
+<p align="center">
+<img src="Screenshots%20of%20website/Screenshot%20(3112).jpg" width="45%">
+<img src="Screenshots%20of%20website/Screenshot%20(3115).jpg" width="45%">
+</p>
+
+<p align="center">
+<img src="Screenshots%20of%20website/Screenshot%20(3118).jpg" width="45%">
+<img src="Screenshots%20of%20website/Screenshot%20(3122).jpg" width="45%">
+</p>
+
+<p align="center">
+<img src="Screenshots%20of%20website/Screenshot%20(3127).jpg" width="45%">
+<img src="Screenshots%20of%20website/Screenshot%20(3130).jpg" width="45%">
+</p>
+
+---
+
+# 🏗 Tech Stack
+
+### Frontend
+
+- React
+- React Router
+- Axios
+- CSS3
+- HTML5
+
+### Backend
+
+- Node.js
+- Express.js
+
+### Database
+
+- MongoDB Atlas
+- Mongoose
+
+---
+
+# 📂 Project Structure
+
+```
+Perfume-Shop
+│
+├── client
+│   ├── public
+│   └── src
+│       ├── components
+│       ├── context
+│       ├── hooks
+│       └── pages
+│
+├── server
+│   ├── models
+│   ├── routes
+│   └── data
+│
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/atulsharma47/Perfume-Shop.git
+```
+
+```bash
+cd Perfume-Shop
+```
+
+---
+
+## Backend Setup
 
 ```bash
 cd server
-npm install
-npm run seed        # Seeds 6 perfume products into MongoDB
-npm start           # Starts API server on http://localhost:5000
 ```
-
-### 2. Install & run the frontend
-
-Open a new terminal tab:
 
 ```bash
-cd client
 npm install
-npm start           # Starts React dev server on http://localhost:3000
 ```
 
-Open **http://localhost:3000** in your browser.
+Create a `.env` file
+
+```env
+PORT=5000
+
+MONGO_URI=your_mongodb_connection_string
+```
+
+Start backend
+
+```bash
+npm start
+```
 
 ---
 
-## Project Structure
+## Frontend Setup
 
-```
-perfume-shop/
-├── client/                 # React frontend
-│   └── src/
-│       ├── components/     # Navbar, HeroBanner, ProductCard, Footer
-│       └── pages/          # HomePage, ProductPage
-└── server/                 # Express backend
-    ├── models/Product.js   # Mongoose schema
-    ├── routes/products.js  # REST API routes
-    ├── data/seed.js        # Seed script
-    └── index.js            # Entry point
+```bash
+cd client
 ```
 
-## API Endpoints
+```bash
+npm install
+```
+
+```bash
+npm start
+```
+
+The frontend will run on
+
+```
+http://localhost:3000
+```
+
+Backend
+
+```
+http://localhost:5000
+```
+
+---
+
+# 📌 API Endpoints
 
 | Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/products` | List all products |
-| GET | `/api/products?featured=true` | Featured products only |
-| GET | `/api/products?category=Floral` | Filter by category |
-| GET | `/api/products/:id` | Single product with full details |
-| POST | `/api/products/:id/reviews` | Add a review |
+|---------|----------|-------------|
+| GET | /api/products | Fetch all perfumes |
+| GET | /api/products/:id | Fetch product details |
+| POST | /api/products/:id/reviews | Add product review |
+| GET | /api/health | Health Check |
 
-## Features
+---
 
-- **Homepage**: Hero banner with particle animation, stats counter, featured products, CTA offer banner, filterable all-collections grid, atelier story section
-- **Product Page**: Image gallery with lightbox, size selector with live price update, share buttons (Twitter, WhatsApp, Facebook, Pinterest), fragrance notes pyramid, rating breakdown, live review submission
-- **Design**: Dark luxury palette (onyx + brass/gold), Cormorant Garamond serif display type, hover micro-interactions, responsive down to mobile
-- **Data**: All content served from MongoDB — no hardcoded values in components
+# 📱 Responsive Design
+
+The application is fully responsive and optimized for
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+# 🔮 Future Improvements
+
+- User Authentication
+- Wishlist
+- Payment Gateway Integration
+- Order Tracking
+- Admin Dashboard
+- Product Categories
+- Coupon System
+- Inventory Management
+- User Profiles
+
+---
+
+# 👨‍💻 Author
+
+**Atul Sharma**
+
+GitHub
+
+https://github.com/atulsharma47
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and supports future development.
